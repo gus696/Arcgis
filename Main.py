@@ -17,7 +17,7 @@ class rioEmpty(Exception):
 
 
 # Configuração de inputs e outputs
-gdb = r'C:\Users\ivanl\Desktop\PYTS\Instrutor\Exemplos\Aula 8\BaciaCabacal.gdb'
+gdb = r''
 nasc = arcpy.GetParameterAsText(0)
 hidr = arcpy.GetParameterAsText(2)
 nascB = r'in_memory\NascentesBuffer'
